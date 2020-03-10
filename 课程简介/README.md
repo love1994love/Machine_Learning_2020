@@ -146,10 +146,40 @@ sudo apt-get install git
 >> git config --list    #查看
 ```
 
+![8iPwXF.png](https://s2.ax1x.com/2020/03/10/8iPwXF.png)
+
 - 初始化同步目录
 
 ```shell
  >> git init
 Initialized empty Git repository in /home/leo/Desktop/homework/.git/
 ```
+
+- 添加文件
+
+```shell
+git add ML2020SPRING\ Python\ Packages.xlsx
+```
+
+- 提交文件
+
+```
+git commit -m "ML2020SPRING"
+```
+
+- 连接远程端
+
+```
+git remote add origin https://github.com/love1994love/Machine_Learning_2020.git
+```
+
+- 推送到远程端
+
+```
+git push -u origin master
+```
+
+![8iPBm4.png](https://s2.ax1x.com/2020/03/10/8iPBm4.png)
+
+![8iPr79.png](https://s2.ax1x.com/2020/03/10/8iPr79.png)
 
